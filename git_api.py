@@ -18,7 +18,7 @@ def get_github_user_info(username):
         # 요청 실패 시 에러 메시지 반환
         return {"error": str(e)}
 
-# 테스트 클래스
+# 단위 테스트 클래스
 class TestGitHubUserInfo(unittest.TestCase):
     
     def test_valid_user(self):
